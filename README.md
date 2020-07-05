@@ -1,5 +1,5 @@
 # Denoiser
-An AI model to remove the specific noise from the noisy input audio using the essentials of Deep Learning.
+**An AI model to remove the specific noise from the noisy input audio using the essentials of Deep Learning.**
 
 ![img](https://steamuserimages-a.akamaihd.net/ugc/155775956858409027/07547CE6405B1FE32EDECEF2D5635C9871E33F04/)
 
@@ -60,13 +60,13 @@ Training duration: 3 min for 40 epochs, 50 batch size.
     Training Accuracy: 97.1%        Training Loss: 0.07
     Validation Accuracy: 79.5%      Validation Loss: 0.4
     
-Input Audio 1: [noisy-1.wav](https://drive.google.com/file/d/1e5FI30J-grBRXg68a8o2Fdw_V_5DdGTy/view?usp=sharing)
+**Input Audio 1: [noisy-1.wav](https://drive.google.com/file/d/1e5FI30J-grBRXg68a8o2Fdw_V_5DdGTy/view?usp=sharing)
 
-Result : [cleaned-1.wav](https://drive.google.com/file/d/1L-ndhO4sWllQOe9Isq-CB6ZC6mevjawU/view?usp=sharing)
+**Result : [cleaned-1.wav](https://drive.google.com/file/d/1L-ndhO4sWllQOe9Isq-CB6ZC6mevjawU/view?usp=sharing)
     
-Input Audio 2: [noisy-2.wav](https://drive.google.com/file/d/1_vEW7WtA8-758ZgY4-QZnVKTSyQpFrKw/view?usp=sharing)
+**Input Audio 2: [noisy-2.wav](https://drive.google.com/file/d/1_vEW7WtA8-758ZgY4-QZnVKTSyQpFrKw/view?usp=sharing)
 
-Result : [cleaned-2.wav](https://drive.google.com/file/d/1o9r5YFMahuN41Ik2HNZkvX55PWwaFjcc/view)
+**Result : [cleaned-2.wav](https://drive.google.com/file/d/1o9r5YFMahuN41Ik2HNZkvX55PWwaFjcc/view)
 
 ### Conclusion
 Results obtained are pretty promising. Although, a number of things can be done to improve the performance:
