@@ -6,31 +6,8 @@ from tqdm import tqdm
 import librosa
 
 #forming a panda dataframe from the metadata file
-data=pd.read_csv("UrbanSound8K/metadata/UrbanSound8K.csv")
+data=pd.read_csv("UrbanSound8K.csv")
 
-#preprocessing using only mfcc
-#x_train=[]
-#x_test=[]
-#y_train=[]
-#y_test=[]
-#path="UrbanSound8K/audio/fold"
-#for i in tqdm(range(len(data))):
-#    fold_no=str(data.iloc[i]["fold"])
-#    file=data.iloc[i]["slice_file_name"]
-#    label=data.iloc[i]["classID"]
-#    filename=path+fold_no+"/"+file
-#    #print(filename)
-#    y,sr=librosa.load(filename)
-#    mfccs = np.mean(librosa.feature.mfcc(y, sr, n_mfcc=40).T,axis=0)
-#    #print(mfccs.shape,mfccs.max(),mfccs.min())
-#    if(fold_no!='10'):
-#      x_train.append(mfccs)
-#      y_train.append(label)
-#    else:
-#      x_test.append(mfccs)
-#      y_test.append(label)
-
-#preprocessing using entire feature set
 x_train=[]
 x_test=[]
 y_train=[]
