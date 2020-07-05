@@ -63,14 +63,32 @@ Training duration: 3 min for 40 epochs, 50 batch size.
 **Input Audio 1:** [noisy-1.wav](https://drive.google.com/file/d/1e5FI30J-grBRXg68a8o2Fdw_V_5DdGTy/view?usp=sharing)
 
 **Result :** [cleaned-1.wav](https://drive.google.com/file/d/1L-ndhO4sWllQOe9Isq-CB6ZC6mevjawU/view?usp=sharing)
+
+input audio: 
+
+![img](https://raw.githubusercontent.com/immohann/Denoiser/master/results/noisy1.png?token=ALRSXZUSLOPZCPRJ7CHSEI27BJLLU)
+
+output :
+
+![img](https://raw.githubusercontent.com/immohann/Denoiser/master/results/clean1.png?token=ALRSXZUSF5UINRDY45EPXI27BJLL6)
+
     
 **Input Audio 2:** [noisy-2.wav](https://drive.google.com/file/d/1_vEW7WtA8-758ZgY4-QZnVKTSyQpFrKw/view?usp=sharing)
 
 **Result :** [cleaned-2.wav](https://drive.google.com/file/d/1o9r5YFMahuN41Ik2HNZkvX55PWwaFjcc/view) 
 
-### Conclusion
-Results obtained are pretty promising. Although, a number of things can be done to improve the performance:
+input audio: 
 
+![img](https://raw.githubusercontent.com/immohann/Denoiser/master/results/noisy2.png?token=ALRSXZXD3RWERXUEI7G2QHC7BJLMG)
+
+output :
+
+![img](https://raw.githubusercontent.com/immohann/Denoiser/master/results/clean2.png?token=ALRSXZRDLWDEU5BDHSWVE5S7BJLMQ)
+
+### Conclusion
+Results obtained are remarkable, still a number of things can be done to improve the performance:
+
+- Reduction in real audio loss using HQ filters
 - Increase number of noise-removal sample to get more accurate results.
 - More generalized method of filtering can be performed.
 - Do ping for quality updates and ideas.
