@@ -94,6 +94,8 @@ Results obtained are remarkable, still a number of things can be done to improve
 - Do ping for quality updates and ideas.
     
     
+**[MIT LICENSE](https://github.com/immohann/Denoiser/blob/master/LICENSE)**
+    
 
               
                
