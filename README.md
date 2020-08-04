@@ -9,7 +9,7 @@ A deep learning model is used to take input audio and detect the type of noises 
 ### Dataset
 Dataset used is: [UrbanSound8K](https://urbansounddataset.weebly.com/urbansound8k.html)
 
-Dataset Size: 9GB
+Dataset Size: 6GB
 
 Contains predefined 10-fold most common noises, stated below:
 
@@ -47,11 +47,18 @@ Contains predefined 10-fold most common noises, stated below:
               - Removes corresponding noises using 'noise reducer'
               - Saves the final output
     
+    
+### Usage
+        1. python3 preprocess.py
+        2. pyhton3 train.py
+        3. python3 test.py
+        
+        
 ### Results
 
 The training and testing of the model was done on the server with : 
 
-32GB RAM 
+60GB RAM 
 
 16GB GPU 
 
@@ -93,6 +100,8 @@ Results obtained are remarkable, still a number of things can be done to improve
 - More generalized method of filtering can be performed.
 - Do ping for quality updates and ideas.
     
+    
+**[MIT License](https://github.com/immohann/Denoiser/blob/master/LICENSE)**
     
 
               
